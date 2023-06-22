@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="blue">
+<center>
+<form method="post">
+<fieldset><legend>STUDENT REGISTRATION FORM</legend>
+<table  width="1000" bgcolor="white">
+<tr>
+<td>FIRST NAME</td>
+<td><input type="text" name="name" maxlength="5" pattern="[a-zA-z]" 
+    title="max5 charcters a-z and A-Z" required></td>
+</tr>
+<tr>
+<td>LAST NAME</td>
+<td><input type="text" name="name" maxlength="5" pattern="[a-zA-z]" 
+    title="max5 charcters a-z and A-Z" required></td>
+</tr>
+<tr>
+<td>DATE OF BIRTH</td>
+<td><input type="date" name="dob"</td>
+</tr>
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-z]).{8,}"></td>
+</tr>
+<tr>
+<td>MOBILE NUMBER</td>
+<td><input type="text" name="phone" maxlength="10" 
+    pattern="[0-9]*" title="Enter only 10 digit number"></td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td><input type="radio" name="gender" value="male">MALE
+    <input type="radio" name="gender" value="female">FEMALE
+</td>
+</tr>
+<tr>
+<td>ADDRESS</td>
+<td><textarea name="address"cols="30" rows="10"></textarea></td>
+</tr>
+<tr>
+<td>CITY</td>
+<td><input type="text" city="city" maxlength="30" pattern="[a-zA-z]" 
+    title="max30 charcters a-z and A-Z" required> </td>
+</tr>
+<tr>
+<td>PINCODE</td>
+<td><input type="text" name="phone" maxlength="6" 
+    pattern="[0-9]*" title="Enter only 6 digit number"></td>
+</tr>
+<tr>
+<td>STATE</td>
+<td><input type="text" name="state"maxlength="30" pattern="[a-zA-z]" 
+    title="max30 charcters a-z and A-Z" required></td>
+</tr>
+<tr>
+<td>COUNTRY</td>
+<td><input type="text" name="country"></td>
+</tr>
+<tr>
+<td>HOBBIES</td>
+<td><input type="checkbox" name="Drawing" value="Drawing">Drawing
+    <input type="checkbox" name="Singing" value="Singing">Singing
+    <input type="checkbox" name="Dancing" value="Dancing">Dancing
+<input type="checkbox" name="Skeching" value="Skeching">Skeching
+<input type="checkbox" name="others" value="others">others
+<textarea name="others"cols="30" rows="10"></textarea></td>
+</tr>
+<tr>
+<td rowspan="5">Qualification</td>
+<td>SI.NO</td>
+<td>Examination</td>
+<td>Board</td>
+<td>Percentage</td>
+<td>Year of passing</td>
+</tr>
+<tr>
+<td>1</td>
+<td>ClassX</td>
+<td><input type="text" name="name" value=""></td>
+<td><input type="number" name="number" value="number"></td>
+<td><input type="number" name="number" value="number"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>ClassXII</td>
+<td><input type="text" name="name" value=""></td>
+<td><input type="number" name="number" value="number"></td>
+<td><input type="number" name="number" value="number"></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Graduation</td>
+<td><input type="text" name="name" value=""></td>
+<td><input type="number" name="number value="number"></td>
+<td><input type="number" name="number" value="number"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Master's</td>
+<td><input type="text" name="name" value=""></td>
+<td><input type="number" name="number" value="number"></td>
+<td><input type="number" name="number" value="number"></td>
+</tr>
+<tr>
+<td>COURSES APPLIED FOR</td>
+<td><input type="checkbox" name="BCA" value="BCA">BCA
+<input type="checkbox" name="BCOM" value="BCOM">BCOM
+<input type="checkbox" name="BSC" value="BSC">BSC
+<input type="checkbox" name="BA" value="BA">BA</td>
+</tr>
+<tr>
+<td><input type="submit" name="sumbit" value="Registration"></td>
+<td><input type="reset" name="reset" value="Reset Data">
+    <button>login</button>
+</tr>
+
+</table>
+
+</center>
+</fieldset>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="yellow">
+<center >
+<form method="post">
+<fieldset> <legent>Registration form</legent>
+<table border="1" width="1000" bgcolor="lightblue">
+<tr>
+<td><label></label>ENTER NAME:</td>
+<td><input type="text" name="name" pattern="[A-Za-z]*" title="enter only alphabets" required></td>
+
+</tr>
+<tr>
+<td>PHONE NUMBER</td>
+<td><input type="text" name="phone" maxlength="10" pattern="[0-9]*" title="Enter only number"></td>
+</tr>
+<tr>
+<td>PASSWORD:</td>
+<td><input type="password" name="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-z]).{8,}" title="maycontain at least one number one uppercase letter one lower case letter 
+    and at least 8 or more character" required></td>
+</tr>
+<tr>
+<td>GENDER:</td>
+<td><input type="radio" name="gender" value="male">MALE
+<input type="radio" name="gender" value="female">FEMALE
+<input type="radio" name="gender" value="others">OTHERS</td>
+</tr>
+<tr>
+<td>EDUCATION</td>
+<td>
+<input type="checkbox" name="10th" value="10th">10th
+<input type="checkbox" name="12th" value="12th">12th
+<input type="checkbox" name="B.tech" value="B.tech">B.tech
+</td>
+</tr>
+<tr>
+<td>DATE OF BIRTH</td>
+<td><input type="date" name="dob"</td>
+</tr>
+<tr>
+<td>course</td>
+<td><select name="course">
+<option vlaue="">select</option>
+<option value="HTML">HTML</option>
+<option value="css">CSS</option>
+<option value="JAVASCRIPT">JAVASCRIPT</option>
+<option value="PHP">PHP</option>
+</select></td>
+</tr>
+<tr>
+<td>UPLOAD a FILE</td>
+<td><input type="file"></td>
+</tr>
+<tr>
+<td>ADDRESS</td>
+<td><textarea name="address"cols="30" rows="5"></textarea></td>
+</tr>
+<tr>
+<td><input type="submit" name="sumbit" value="Registration"></td>
+<td><input type="reset" name="reset" value="Reset Data">
+<input type="button" name="simple" value="SignUp"></td>
+</tr>
+</table>
+</fieldset>
+</form>
+</center>
+</body>
+</html>

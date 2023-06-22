@@ -1,0 +1,61 @@
+Body{
+    background-color: black;
+
+}
+h1{
+    color: grey;
+    font-size: 10em;
+    text-align: center;
+}
+h1 span{
+    animation:animate 2s infinite;
+}
+h1 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+h1 span:nth-child(2)
+{
+    animation-delay: 0.25s;
+
+}
+h1 span:nth-child(3)
+{
+    animation-delay: 0.50s;
+}
+h1 span:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+h1 span:nth-child(5)
+{
+    animation-delay: 1ms;
+
+}
+h1 span:nth-child(6)
+{
+    animation-delay: 1.25ms;
+}
+@keyframes animate {
+    0%,100%{
+        color: red;
+        filter: blur(2px);
+        text-shadow: 10px 10px 10px blue,
+                     400px 400px 800px blue,
+                    300px 330px 30px blue,
+                     200px 200px 60px blue;
+                     
+                      
+    }
+20%,95%{
+    color: gray;
+    filter:blur(0px);
+    text-shadow: 200px 200px 500px yellow,
+                 400px 500px 60px red,
+                 500px 300px 70px blue,
+                 800px  400px 80px yellowgreen,
+                 700px 600px 100px fuchsia;
+                 
+                 
+}
+}

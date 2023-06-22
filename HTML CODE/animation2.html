@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+div{
+    height: 400px;
+    width: 400px;
+    background-image: url(leader1.jpg);
+    animation: animate 10s linear infinite;
+    position: relative;
+    animation-direction: alternate-reverse;
+}
+@keyframes animate{
+    0%{
+        background-image: url(modi);
+        left:0px;
+        top: 0px;
+    }
+    25%{
+        background-image: url(leader2.jpg);
+        left: 500px;
+        top: 0px;
+}
+  50%{
+    background-image:url(design.jpg);
+    left: 500px;
+    top:500px; 
+}
+  75%{
+    background-image: url(leader1.jpg);
+    left: 0px;
+    top: 500px;
+  }
+  100%{
+    background-image: url(apj.jpg);
+    left: 500px;
+    top: 500px;
+  }
+}
+</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
